@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    color:#555;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+     text-decoration:  none;
+}
+	
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    clear: both;
+    display: block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*Add your css into here*/
+.fl-left{ float: left;}
+.fl-right{ float: right;}
+
+.block{
+    display: block;
+}
+
+
+
+
+
+/*////////*/
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 7.3px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19), 0px 0px 1px rgba(13, 13, 13, 0.19);
+  background: #ff0000;
+  border-radius: 0px;
+  border: 0px solid rgba(0, 0, 1, 0);
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.7px 0.7px 8.8px #775669, 0px 0px 0.7px #866176;
+  border: 1.8px solid rgba(255, 255, 255, 0.74);
+  height: 26px;
+  width: 26px;
+  border-radius: 16px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.3px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ff1a1a;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19), 0px 0px 1px rgba(13, 13, 13, 0.19);
+  background: #ff0000;
+  border-radius: 0px;
+  border: 0px solid rgba(0, 0, 1, 0);
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.7px 0.7px 8.8px #775669, 0px 0px 0.7px #866176;
+  border: 1.8px solid rgba(255, 255, 255, 0.74);
+  height: 26px;
+  width: 26px;
+  border-radius: 16px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #e60000;
+  border: 0px solid rgba(0, 0, 1, 0);
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19), 0px 0px 1px rgba(13, 13, 13, 0.19);
+}
+input[type=range]::-ms-fill-upper {
+  background: #ff0000;
+  border: 0px solid rgba(0, 0, 1, 0);
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19), 0px 0px 1px rgba(13, 13, 13, 0.19);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0.7px 0.7px 8.8px #775669, 0px 0px 0.7px #866176;
+  border: 1.8px solid rgba(255, 255, 255, 0.74);
+  height: 26px;
+  width: 26px;
+  border-radius: 16px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 11.4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #ff0000;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #ff1a1a;
+}
+
+/*css input[sype=date]*/
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/*css input number*/
+/*input[type="number"]{}
+
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button{
+     -webkit-appearance: none;
+}*/
+/*//bỏ nút*//*
+input[type=number] {-moz-appearance: textfield;}
+::-webkit-inner-spin-button { -webkit-appearance: none;}
+::-webkit-outer-spin-button { -webkit-appearance: none;}*/
+
+
+
+/*//style chung*/
+/*input[type="date"]{}
+input[type="month"]{}
+input[type="time"]{}
+input[type="week"]{}
+input[type="datetime"]{}
+input[type="datetime-local"]{}
+
+input::-webkit-datetime-edit{}
+input::-webkit-datetime-edit-fields-wrapper{}
+
+input::-webkit-datetime-edit-ampm-field{}
+input::-webkit-datetime-edit-day-field{}
+input::-webkit-datetime-edit-hour-field{}
+input::-webkit-datetime-edit-millisecond-field{}
+input::-webkit-datetime-edit-minute-field{}
+input::-webkit-datetime-edit-month-field{}
+input::-webkit-datetime-edit-second-field{}
+input::-webkit-datetime-edit-week-field{}
+input::-webkit-datetime-edit-year-field{}
+
+input::-webkit-datetime-edit-ampm-field:focus{}
+input::-webkit-datetime-edit-day-field:focus{}
+input::-webkit-datetime-edit-hour-field:focus{}
+input::-webkit-datetime-edit-millisecond-field:focus{}
+input::-webkit-datetime-edit-minute-field:focus{}
+input::-webkit-datetime-edit-month-field:focus{}
+input::-webkit-datetime-edit-second-field:focus{}
+input::-webkit-datetime-edit-week-field:focus{}
+input::-webkit-datetime-edit-year-field:focus{}
+
+input::-webkit-datetime-edit-year-field[disabled]{}
+input::-webkit-datetime-edit-month-field[disabled]{}
+input::-webkit-datetime-edit-week-field[disabled]{}
+input::-webkit-datetime-edit-day-field[disabled]{}
+input::-webkit-datetime-edit-ampm-field[disabled]{}
+input::-webkit-datetime-edit-hour-field[disabled]{}
+input::-webkit-datetime-edit-millisecond-field[disabled]{}
+input::-webkit-datetime-edit-minute-field[disabled]{}
+input::-webkit-datetime-edit-second-field[disabled]{}
+
+input::-webkit-datetime-edit-text{}
+
+input::-webkit-inner-spin-button{}
+
+input::-webkit-calendar-picker-indicator{}
+input::-webkit-calendar-picker-indicator:hover{}*/
+/*http://qnimate.com/guide-to-styling-html5-input-elements/*/

@@ -1,0 +1,787 @@
+*{
+	
+}
+
+.content {
+    margin-bottom: 22px;
+}
+
+.hienthi-binhluan-noidung {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #e6e3e3;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.nhap-binhluan {
+    background: #cecbcb;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.hienthi-binhluan-tieude {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #650c0e;
+    padding-top: 5px;
+}
+
+.hienthi-binhluan {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+chitietquanan-menu ul {
+    background: red;
+}
+
+.chitietquanan-menu {
+    height: 45px;
+    background: #ffffff;
+    border-top: 1px solid #b7aeae;
+}
+
+.dg {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+}
+
+.dg-diem {
+    /* display: inline; */
+    ne; */
+    float: right;
+    float: right;
+    padding-right: 34px;
+}
+
+label.thanh-range {
+    display: inline;
+}
+
+.thongtin-datban-hinhanh {
+    width: 100%;
+}
+
+.dangnhap-dangky {width: 224px;display: inline-block;}
+
+.time {
+    display: block;
+    height: 40px;
+    border: 1px solid #c5b1b1;
+    border-radius: 2px;
+}
+
+.people {display: block;height: 40px;border: 1px solid #c5b1b1;border-radius: 2px;text-align: center;}
+
+.date {
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #c5b1b1;
+    padding: 2px;
+    height: 40px;
+    text-align: center;
+}
+
+.khung-binhluan {
+    overflow: hidden;
+}
+
+.binhluan {
+    padding: 15px 20px 20px 15px;
+}
+
+.sapxep-select {
+    border-radius: 5px;
+    border: 0px solid #650c0e;
+    padding: 5px;
+    margin-right: -9px;
+}
+
+.sapxep {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0;
+    color: #650c0e;
+}
+
+.icon-thoat {
+    float: right;
+    font-size: 27px;
+    transform: translateX(-2px) translateY(0px);
+    color: #7d1212;
+    cursor: pointer;
+}
+
+.thongtin-datban {
+    position: fixed;
+    height: 80%;
+    margin: auto;
+    top: 7.5%;
+    left: 15%;
+    right: 15%;
+    z-index: 1031;
+    display: none;
+    background: white;
+    box-shadow: 0px 0px 5px 1px #291a1a;
+}
+
+.layer-black{
+	content: "before dat ban";
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1030;
+}
+
+
+.salver-thongtin {
+    font-size: 10px;
+    display: inline-block;
+    text-transform: none;
+}
+
+.salver {
+    width: 45px;
+    display: inline-block;
+}
+
+.salver {
+}
+
+.salver img {
+    width: 50%;
+}
+
+.fa-book {
+    padding-right: 5px;
+}
+
+.footer h2 {
+    font-size: 22px;
+}
+
+.restaurant {
+    position: relative;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+.restaurant:hover .restaurant-thongtin {
+    transform: translateY(-60px);
+    transition: 0.6s;
+}
+
+.restaurant-thongtin .name {
+    padding-bottom: 20px;
+    color: white;
+    display: block;
+    text-transform: none;
+    font-size: 17px;
+}
+
+.restaurant-thongtin {
+    background: rgba(19, 17, 17, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: -61px;
+    left: 0;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.restaurant-thongtin {
+    position: absolute;
+
+}
+.dangnhap-danhgia {
+    clear: both;
+    text-transform: none;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.banner-khung {
+    position: relative;
+}
+body{
+	background-color: #eeeeee;
+}
+
+.chitietquanan-thongtin .name {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.icon-thongtin {
+    color: #c71400;
+    font-size: 16px;
+    margin: 5px 10px 0px 0px;
+}
+
+.number {
+    color: #03AE03;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.evaluate .col-sm-2 {
+    padding-right: 0;
+}
+
+.evaluate {
+    margin: 16px 0;
+}
+
+.chitietquanan-menu a {
+    display: block;
+    padding-bottom: 5px;
+    color: #00253e;
+}
+
+.nav-link {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    padding-left: 0;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+.chitietquanan {
+    margin: 0px 0 64px 0;
+}
+
+.chitietquanan-image {
+    margin: 0;
+    padding: 0;
+}
+
+.chitietquanan-image img {
+    width: 100%;
+}
+
+.back-top img {
+    width: 100%;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.follow {
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+
+.copyright {
+    line-height: 35px;
+    color: #00253e;
+}
+
+.footer {
+    background: #00253e;
+    overflow: hidden;
+    color: white;
+}
+
+.icon-social {
+}
+
+.quangcao img {
+    margin-top: -100px;
+}
+
+.quangcao {
+    height: 200px;
+    overflow: hidden;
+}
+
+.bottom-footer {background: white;color: #165c34;height: 35px;}
+
+.top-footer {
+}
+
+.text-phai .fa-phone-square {
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.text-phai {
+    color: #e7f710;
+}
+
+.text-text {
+    color: white;
+    padding-top: 7px;
+}
+
+.nut-slider li {
+	background-color: #004a7c;
+	border: 1px solid #004a7c;
+}
+
+.khung-slider p {
+    font-size: 17px;
+}
+
+.khung-slider {
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 150px;
+}
+
+.btn-timkiem:hover {
+    background: #1e5a84;
+    color: white;
+}
+
+.btn-timkiem {
+    border: 1px solid #004a7c;
+    background: #004a7c;
+    transition: 0.4s;
+    color: #004a7c;
+    color: white;
+    border-radius: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: -7px;
+}
+
+.btn-timkiem:focus {
+    border-radius: 5px;
+}
+
+.btn-timkiem:active {
+    border-radius: 5px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+}
+
+.top-menu {
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.78);
+}
+
+.slide1-carousel-inner .item {
+    height: 500px;
+}
+
+.banner {background: #F3F2EC;\: \;}
+
+.my-navbar-collapse .form-group .form-control {width: 636px;height: 46px;font-size: 16px;}
+
+.tiemkiem {
+    border: 1px solid #004a7c;
+}
+
+.my-navbar-collapse .navbar-form.navbar-left {
+    padding-top: 25px;
+    padding-left: 70px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.my-navbar-brand img {
+    width: 100%;
+}
+.container{
+	width: 92%;
+	margin: auto;
+	padding: 0;
+}
+
+.chitietquan-thongtin {
+    background: white;
+    margin-top: 40px;
+}
+
+body {
+    background: rgba(232, 232, 232, 0.98);
+    font-family: avenir-r;
+    font-family: sans-serif;
+}
+
+/*@font-face{
+	src:url(fonts/Lato-Bold.ttf);
+	font-family: lato-b;
+}
+@font-face{
+	src:url(fonts/Lato-Regular.ttf);
+	font-family: lato-r;
+}
+@font-face{
+	src:url(fonts/avenir.otf);
+	font-family: avenir;
+}
+@font-face{
+	src:url(fonts/avenir-regular.otf);
+	font-family: avenir-regular;
+}*/
+/*@font-face{
+	src:url(fonts/avenir-next-lt-pro-59356917b581d.otf);
+	font-family: avenir-r;
+}*/
+@font-face{
+	src:url(fonts/avenir-next-lt-pro-light-59356a9ab5c8a.otf);
+	font-family: avenir-l;
+}
+
+
+/*css cho phan topheader*/
+.top-header{
+	background-color: #00253e;
+	height: 34px;
+	overflow: hidden;
+}
+.top-menu-fixed{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right:0;
+  	z-index: 1030;
+}
+.icon-social a{
+	background: white;
+	border-radius: 50%;
+	color: #025ac8;
+	display: inline-block;
+	/* padding: 5px 3px; */
+	padding-top: 4px;
+	padding-left: 2px;
+	width: 33px;
+	height: 33px;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.icon-social a:hover {
+    color: #f9333a;
+}
+.nut{
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.btn-register, .btn-joinnow{
+	background: #004a7c;
+	border: 1px solid white;
+	font-size: 14px;
+	padding: 8px 13px;
+	margin-bottom: 10px;
+	border-radius:20px;
+}
+.btn-joinnow{
+	color: #00253e;
+	border-radius: 1px;
+	margin-top: 20px;
+	background: transparent;
+	margin-right: 17px;
+	margin-bottom: 0;
+}
+.my-menu li.nav-item a.nav-link{
+	font-size: 14px;
+	color: #808386;
+	color: #004a7c;
+	padding: 30px 0px 41px 0px;
+	margin: 0px 20px;
+	border-top: 5px solid transparent;
+	text-transform: uppercase;
+}
+
+.my-menu li.nav-item a.nav-link:hover {
+    color: #1b1eff;
+    border-color: #1b1eff;
+}
+.my-menu li.nav-item.active a.nav-link{
+	color: #1b1eff;
+	border-color: #1b1eff;
+	background: none;
+}
+
+.my-menu li.nav-item.icon-menu a.nav-link{font-size: 20px;padding-right: 0;color: #d6d1d1;}
+.my-navbar {
+    border: none;
+    margin-bottom: 0;
+    background: white;
+}
+
+.navbar-brand.my-navbar-brand{
+	padding: 8px 0px 10px 0px;
+	width: 159px;
+}
+
+
+/*style slidebanner*/
+#slide1 .carousel-inner .item img {
+}
+
+.slide1-carousel-inner .item img {
+}
+
+
+/*style top-restaurants*/
+.top-restaurants {
+    background: transparent;
+    color: #0b7af1;
+    overflow:hidden;
+}
+.title{
+	position:relative;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 32px 0 16px;
+	color: #ffffff;
+	margin-left: 14px;
+	background-image: url(../images/bg-tittle.png);
+	background-repeat: no-repeat;
+	background-position-x: -700px;
+	padding: 10px;
+	border-bottom: 2px solid #650c0e;
+}
+
+.restaurant img{
+	width: 100%;
+	transition:0.6s;
+}
+/*.title:before, .title:after{
+	content:"";
+	width:100%;
+	height: 2px;
+	background-color: #0b7af1;
+	position:absolute;
+	top:45%;
+	right:90%;
+}
+.title:after{
+	left:90%;
+}*/
+
+/*.restaurant{
+	text-align: center;
+	height: 240px;
+	box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.78);
+}
+
+.restaurant img{
+	height: 100%;
+	transition:0.6s;
+}
+.restaurant:hover img{
+	transform:scale(1.2);
+}
+.restaurant:hover .layer-gray{
+	opacity:1;
+}
+
+.restaurant .name{
+	color: white;
+	font-size: 18px;
+	padding: 5px 0;
+	transition: 0.6s;
+	transform: translateY(100px);
+}
+.restaurant:hover .name{
+	opacity: 1;
+	transform: translateY(0px);
+	text-decoration: none;
+	cursor: pointer;
+}
+*/
+.btn-view{
+	background: transparent;
+	border-radius: 20px;
+	background-image: url(../images/icon-book.png);
+	background-repeat: no-repeat;
+	background-position-x: 17px;
+	background-position-y: 7px;
+	border: 2px solid white;
+	color: #ffffff;
+	transition: 0.2s;
+	transition-delay: 0.3s;
+	text-transform: none;
+	width: 50%;
+	display: inline-block;
+}
+.btn-view:hover{
+	background: rgb(101, 12, 14);
+	border: 2px solid white;
+	background-image: url(../images/icon-book.png);
+	background-repeat: no-repeat;
+	background-position-x: 17px;
+	background-position-y: 7px;
+}
+/*.restaurant:hover .btn-view{
+	opacity:1;
+}*/
+
+
+
+/*style special-food*/
+.special-food{
+	background-attachment: fixed;
+	background-size: auto 100%;
+	text-transform: uppercase;
+	color: red;
+	overflow:hidden;
+}
+/*.special-food .title:after, .special-food .title:before{
+	background-color: red;
+}*/
+.special-food-one, .one-food{
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*.special-food-one-thongtin {
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}*/
+
+.special-food-one-thongtin {}
+
+.special-food-one-thongtin {}
+.layer-gray{
+	background-color: rgba(130, 155, 160, 0.26);
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	opacity:0;
+	transition:0.6s;
+}
+.special-food-one:hover .layer-gray{
+	opacity:1;
+}
+
+.special-food-one img{
+	height: 100%;
+	transition:0.6s;
+}
+.special-food-one:hover img{
+	transform:scale(1.2);
+}
+
+.special-food-one .name{
+	width: 100%;
+	background-color: rgba(20, 20, 21, 0.86);
+	text-transform: initial;
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 3;
+	transition: 0.6s;
+}
+.special-food .special-food-one .name:hover {
+    text-decoration: none;
+    background: rgba(230, 126, 34, 0.76);
+     color: black; 
+}
+
+/*style responsive */
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.restaurant{
+		height: 100%;
+	}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+	.my-navbar-collapse .form-group .form-control {
+    width: auto;
+    height: 46px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+	.icon-social, .nut{
+		text-align: center;
+	}
+	.nut{
+		margin-top: 15px;
+	}
+	.my-menu li.nav-item a.nav-link{
+		padding: 10px 5px;
+		border-bottom: 1px dashed gray;
+	}
+	.my-menu li.nav-item a.nav-link:hover{
+		border-color: none;
+		background-color: #e4dcdc;
+	}
+	.navbar-brand.my-navbar-brand{
+	margin-top: -25px;
+	}
+
+
+	.special-food-one, .one-food{
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	}
+
+	.my-navbar-collapse .form-group .form-control {
+    width: auto;
+    height: 46px;
+    font-size: 16px;
+	}
+}
+
+/*style private css*/
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+
+.mt-2{
+	margin-top:32px;
+}
+.mp-2{
+	margin-bottom: 32px;
+}
+
+.xanh{
+}
+
+.phongto-hienra{
+	animation: phongto-hienra 1s forwards;
+}
+@-webkit-keyframes phongto-hienra{
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+
+

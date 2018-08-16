@@ -1,0 +1,68 @@
+*{
+	
+}
+
+.main-content {
+    background: white;
+    width: 81%;
+    margin: 1.16%;
+    padding-bottom: 1.5%;
+}
+
+.container {
+    width: 100%;
+}
+
+.menutrai-link {
+    color: #1f3827;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    padding: 12px 0px;
+    padding-left: 32px;
+    display: block;
+    border-bottom: 1px solid wheat;
+}
+
+.menutrai-tieude {
+    background: #1b783c;
+    width: 90%;
+    color: wheat;
+    margin: 0 auto;
+    padding: 10px 0;
+    padding-left: 10px;
+    box-shadow: 2px 2px 5px 0px black;
+    font-size: 18px;
+}
+
+.wrapper {
+    background: #f1eeee;
+    overflow: hidden;
+}
+
+.menu-trai {
+    padding: 0;
+    margin: 0;
+    padding-top: 14px;
+    box-shadow: 1px 5px 9px 0px #a79e9e;
+    background: white;
+}
+
+.top-header {
+    height: 72px;
+    line-height: 55px;
+    overflow: hidden;
+    color: #100a19;
+    background: white;
+}
+
+/*My CSS*/
+.active{
+    color:red;
+}
+.green{
+    color:green;
+}
+
+/*CSS Đăng xuất*/
